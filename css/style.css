@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+#main {
+    margin: 0;
+    padding: 10px;
+    height: 780px;
+    width: 1200px;
+    background-image: url(../images/image.png);
+}
+
+#top {
+    font-size: 24px;
+}
+
+#bottom {
+    display: flex;
+    margin-top: 500px;
+    height: 200px;
+    width: 100%;
+}
+
+#command {
+    width: 20%;
+    height: 200px;
+}
+
+#command ul {
+    list-style-type: none;
+}
+
+#status {
+    width: 75%;
+    height: 200px;
+    margin-left: 10px;
+}
+
+#table {
+    width: 100%;
+    border-spacing: 5px;
+}
+
+
+.window {
+    background-color: blue;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 3px;
+    font-weight: bold;
+    padding: 8px;
+}
+
+.name, .hp, .mp {
+    width: 18%;
+}
+
+.bar {
+    border: 1px solid white;
+    margin: 3px 20px 3px 0px;
+    height: 20px;
+}
+
+.percent100 {
+    width: 100%;
+    background-color: white;
+    height: 20px;
+}
+
+.percent80 {
+    width: 80%;
+    background-color: white;
+    height: 20px;
+}
+
+.percent70 {
+    width: 70%;
+    background-color: white;
+    height: 20px;
+}
+
+.percent60 {
+    width: 60%;
+    background-color: white;
+    height: 20px;
+}
+
+.percent50 {
+    width: 50%;
+    background-color: white;
+    height: 20px;
+}
+
+.percent40 {
+    width: 40%;
+    background-color: white;
+    height: 20px;
+}
+
+.percent30 {
+    width: 30%;
+    background-color: white;
+    height: 20px;
+}
+
+.percent20 {
+    width: 20%;
+    background-color: white;
+    height: 20px;
+}
+
+.percent10 {
+    width: 10%;
+    background-color: white;
+    height: 20px;
+}
+
